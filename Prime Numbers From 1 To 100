@@ -1,0 +1,42 @@
+#Python program to print prime numbers from 1 to 100
+#You can customize code as your requirements.
+
+
+# 1. This will print all prime number from 1 to 100
+for m in range(0,101):
+    for i in range(0,m):
+        for j in range(2,i):
+            if i%j is 0:
+                break
+            else:
+                print(f"{i} is prime number")
+                break
+                
+
+
+#2 Get inpurt from user (i call it number "m") and print prime number from 0 to m
+
+m= int(input("print prime numbers between 0 to give your choice :-"))
+for i in range(0,m):
+    for j in range(2,i):
+        if i%j is 0:
+            break
+        else:
+            print(f"{i} is prime number")
+            break
+            
+      
+#Chack number is prime or not
+
+i= int(input("Inter number to chack prime number: \n"))
+if i == 2:
+    print("2 is prime number")
+else:
+    for j in range(2,i):
+        if i%j is 0:
+            print(f"{i} is not a prime number")
+            break
+        else:
+            print(f"{i} is a prime number")
+            break      
+
