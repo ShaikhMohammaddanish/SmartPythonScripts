@@ -5,6 +5,7 @@ try:
 except:
     f=open("highscore.txt", "w")
     f.write("0")
+    f.close()
 
 try:
     import pygame
