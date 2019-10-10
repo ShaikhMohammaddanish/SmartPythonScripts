@@ -1,4 +1,15 @@
-import pygame, random
+import random
+try:
+    f=open("highscore.txt", "a")
+    f.close()
+except:
+    f=open("highscore.txt", "w")
+    f.write("0")
+
+try:
+    import pygame
+except:
+    print("plz install pygame and try again")
 pygame.init()
 
 #coloure & globle ver
