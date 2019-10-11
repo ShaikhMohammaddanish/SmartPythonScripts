@@ -2,7 +2,6 @@
 """
 Created on Mon Sep 23 22:39:25 2019
 
-@author: Rahi
 """
 #this code is to maintain file append data and read
 
