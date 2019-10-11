@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Sep 22 13:55:59 2019
-
 """
 
 #gess the number 
