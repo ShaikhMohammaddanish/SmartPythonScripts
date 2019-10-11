@@ -2,7 +2,6 @@
 """
 Created on Sun Sep 22 13:55:59 2019
 
-@author: Rahi
 """
 
 #gess the number 
