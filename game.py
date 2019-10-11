@@ -1,11 +1,11 @@
 import random
 try:
-    f=open("highscore.txt", "a")
+    f=open("highscore.txt", "r")
     f.close()
 except:
     f=open("highscore.txt", "w")
     f.write("0")
-    f.close()
+    f.close ( )
 
 try:
     import pygame
@@ -117,8 +117,8 @@ def game():
             print_on_display ("score " + str ( score)+ "high score "+y , 5, 5, 50 )
             pygame.draw.rect ( popup, red, [ food_x, food_y, 10, 10 ] )
             with open ( "highscore.txt" ) as f:
-                highscore = f.read ( 3 )
-            if score > (int ( highscore )):
+                highscore = f.read ( )
+            if score > int(( highscore )):
                 print_on_display ( "You Made Highscore", 400, 0, 50)
                 with open ( "highscore.txt", "w" ) as f:
                     f.write ( str ( score ) )
